@@ -1,0 +1,91 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Open Sans", sans-serif;;
+  font-size: normal;
+  line-height: normal;
+  font-weight: 300;
+}
+h1, h2, h3{
+  color: #243642;
+  font-size: xx-large;
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.bouton {
+  color: #800000;
+  text-decoration: none;
+  border: 1px solid #E8B86D;
+  background-color: #E8B86D;
+  border-radius: 5px;
+  padding: 10px
+}
+.bouton:hover {
+  background-color: black;
+  color: white;
+  transition: 5S;
+
+}
+#banner{
+  background-color: #A1D6B2;
+  border-radius: 15px;
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+}
+.card{
+  border: 1px, black;
+  background-color: #CEDF9F;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px, solid,lightgrey;
+}
+.container{
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+.size-pict{
+  font-size: 70px;
+  padding: 30px;
+}
+
+.size-pict:hover{
+  color:bisque;
+  transition: 1S;
+}
+
+p{
+  padding: 10px;
+}
+
+@media (max-width: 960px){
+  .container{
+    width: 700px;
+  }
+}
+@media (max-width: 720px){
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 540px){
+  .container{
+    width: 300px;
+    img{
+      width: 100px;
+      height: 100px;
+    }
+    .size-pict{
+      font-size: 35px;
+    }
+  }
+}
